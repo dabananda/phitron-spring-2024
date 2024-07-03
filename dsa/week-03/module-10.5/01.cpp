@@ -36,15 +36,6 @@ void print(Node* head) {
   cout << endl;
 }
 
-void printReverse(Node* tail) {
-  Node* curr = tail;
-  while (curr != nullptr) {
-    cout << curr->val << " ";
-    curr = curr->prev;
-  }
-  cout << endl;
-}
-
 int getSize(Node* head) {
   int ans = 0;
   Node* curr = head;
