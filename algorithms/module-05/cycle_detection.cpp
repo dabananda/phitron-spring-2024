@@ -17,6 +17,7 @@ void bfs(int src) {
     for (int x : v[p]) {
       if (vis[x] && parentArray[p] != x) {
         ans = true;
+        return;
       }
       if (!vis[x]) {
         vis[x] = true;
