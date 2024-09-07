@@ -1,5 +1,4 @@
-# Ignore output folder
+# Ignore directories
 output/
-
-# Ignore .vscode folder
 .vscode/
+.cph/
